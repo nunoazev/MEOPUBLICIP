@@ -2,14 +2,14 @@
 ## How change MEO public ip
 
 ### LOGIN TELNET
-TELNET 192.168.1.254
-ACCESS:
-USERNAME: sumeo
-PASSWORD: bfd,10ng
+TELNET 192.168.1.254 ```
+ACCESS: ```
+USERNAME: sumeo ```
+PASSWORD: bfd,10ng ```
 
 ### COMMANDS TO FIBER:
-dhcp client ifdetach intf=InternetGPON
-dhcp client ifattach intf=InternetGPON
+dhcp client ifdetach intf=InternetGPON ```
+dhcp client ifattach intf=InternetGPON ```
 
 
 ### COMMANDS TO ADSL:
